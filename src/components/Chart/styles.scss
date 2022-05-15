@@ -1,0 +1,22 @@
+#Chart {
+  width: 900px;
+  background-color: balack;
+  margin: 0 auto;
+  height: 70vh;
+  padding-top: 100px;
+  z-index: 10;
+  box-sizing: border-box;
+  position: relative;
+  svg {
+    width: 100% !important;
+  }
+  @media screen and (max-width: 990px) {
+    width: 700px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 500px;
+  }
+  @media screen and (max-width: 576px) {
+    width: 340px;
+  }
+}

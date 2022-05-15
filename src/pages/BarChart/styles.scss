@@ -1,0 +1,35 @@
+.Chart__page {
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+
+  img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    bottom: 0;
+    // @media screen and (max-width: 576px) {
+    //   height: 526.04px;
+    // }
+  }
+}
+
+.Back__btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 130px;
+  z-index: 10;
+  height: 40px;
+  cursor: pointer;
+  background-color: #33adff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  border: none;
+}
